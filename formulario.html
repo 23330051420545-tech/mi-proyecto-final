@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilosform.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+</head>
+<body>
+
+    <header>
+         <h1>Acerca de.....</h1>
+        <nav>
+            <a href="proyecto.html">Inicio</a> |
+            <a href="formulario.html">Preguntas y Consejos</a> |
+            <a href="acerca.html">Acerca de mi</a>
+        </nav>
+    </header>
+
+    <hr>
+    <main>
+      <form class="formulario">
+
+      <!-- Datos Personales -->
+      <label for="nombre">Nombre: </label> 
+      <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+      <br><br>
+
+      <!-- Selección de Consejos de vida -->
+      <label for="consejos">Deja un pequeño consejo de vida:</label>
+      <input type="text" id="consejos" name="consejos" placeholder="Escribe tu consejo">
+      <br><br>
+
+      <!-- Radio buttons -->
+      <div>
+        <p>¿Qué canción de Zoé te gusta más?</p>
+        <label><input type="radio" name="zoe" value="Soñe"> Soñé - Zoé</label><br>
+        <label><input type="radio" name="zoe" value="Labios Rotos"> Labios Rotos - Zoé</label>
+      </div>
+      <br>
+
+      <!-- Checkboxes -->
+      <div>
+        <p>¿Te gustaría ir a un concierto de Zoé?</p>
+        <label><input type="checkbox" name="asistir" value="si"> Sí</label>
+        <label><input type="checkbox" name="asistir" value="no"> No</label>
+      </div>
+      <br>
+
+      <!-- Select -->
+      <div>
+        <label for="opciones">¿Qué llevarías a un concierto de Zoé?</label>
+        <select id="opciones" name="opciones">
+          <option value="">Elige una opción</option>   
+          <option value="sombrilla">Sombrilla</option>
+          <option value="camara">Cámara</option>
+          <option value="silla">Silla</option>
+          <option value="lampara">Lámpara</option>
+        </select>
+      </div>
+      <br>
+
+      <!-- Botón -->
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+</body>
+</html>

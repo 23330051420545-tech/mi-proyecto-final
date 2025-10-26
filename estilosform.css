@@ -1,0 +1,126 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*cuerpo*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: linear-gradient(180deg, #dd3e3e 0%, #424449 100%);
+    color: #333;
+}
+
+/*encabezado*/
+header {
+   background: linear-gradient(90deg, #5a5151e5, #000000);
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+
+/* formulario*/
+.formulario {
+    background-color: aliceblue;
+    width: 90%;
+    max-width: 450px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/*etiquetas generales*/
+.formulario label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+/*campos de entreda y select*/
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="consejos"],
+.formulario select {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+/*efecto focus*/
+.formulario input:focus,
+.formulario select:focus {
+    outline: none;
+    border-color: #0077b6;
+    box-shadow: 0 0 4px rgba(0, 119, 182, 0.4);
+}
+
+/*grupo de opciones(radio/checkbox)*/
+.grupo-opciones {
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+
+.grupo-opciones p {
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+}
+
+.grupo-opciones label {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 0.3rem;
+}
+
+/*boton*/
+.formulario button {
+    width: 100%;
+    background-color: #b60000;
+    color: aliceblue;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+    font-size: 0.9rem; 
+}
